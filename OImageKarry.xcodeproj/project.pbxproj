@@ -52,6 +52,8 @@
 		E92EBE862632707100345F7A /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E92EBE852632707100345F7A /* test.jpg */; };
 		E92EBE88263279D100345F7A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E92EBE87263279D100345F7A /* README.md */; };
 		E92EBE8A263283EC00345F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92EBE89263283EC00345F7A /* Assets.xcassets */; };
+		E92EBE8D2632B4DC00345F7A /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E92EBE8B2632B4DC00345F7A /* 003.jpg */; };
+		E92EBE8E2632B4DC00345F7A /* 1984.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E92EBE8C2632B4DC00345F7A /* 1984.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +143,8 @@
 		E92EBE852632707100345F7A /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		E92EBE87263279D100345F7A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E92EBE89263283EC00345F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E92EBE8B2632B4DC00345F7A /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
+		E92EBE8C2632B4DC00345F7A /* 1984.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1984.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +187,8 @@
 				E92EBE8326326D4000345F7A /* UIImageView+Hello.h */,
 				E92EBE8226326D4000345F7A /* UIImageView+Hello.m */,
 				E92EBDFF2632602200345F7A /* Main.storyboard */,
+				E92EBE8B2632B4DC00345F7A /* 003.jpg */,
+				E92EBE8C2632B4DC00345F7A /* 1984.jpg */,
 				E92EBE852632707100345F7A /* test.jpg */,
 				E92EBE87263279D100345F7A /* README.md */,
 				E92EBE112632612100345F7A /* XLPhotoBrowser+CoderXL */,
@@ -369,6 +375,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92EBE062632602400345F7A /* LaunchScreen.storyboard in Resources */,
+				E92EBE8D2632B4DC00345F7A /* 003.jpg in Resources */,
+				E92EBE8E2632B4DC00345F7A /* 1984.jpg in Resources */,
 				E92EBE862632707100345F7A /* test.jpg in Resources */,
 				E92EBE88263279D100345F7A /* README.md in Resources */,
 				E92EBE782632612100345F7A /* FSActionSheet_cancel@3x.png in Resources */,

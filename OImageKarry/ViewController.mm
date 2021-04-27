@@ -9,6 +9,7 @@
 #import <opencv2/opencv.hpp>
 #import <opencv2/imgproc/types_c.h>
 #import <opencv2/imgcodecs/ios.h>
+
 /*
  Download the opencv2.framework from the link and import it to your project:
  https://udomain.dl.sourceforge.net/project/opencvlibrary/4.5.2/opencv-4.5.2-ios-framework.zip
@@ -16,6 +17,7 @@
  */
 #import "ViewController.h"
 #import "UIImageView+Hello.h"
+#import "UIImage+Hello.h"
 
 
 @interface ViewController ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
@@ -26,6 +28,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *hsvImageView;
 
 @property (weak, nonatomic) IBOutlet UIImageView *hsitImageView;
+
+//@property (weak, nonatomic) IBOutlet UILabel *infoLabel;
 
 @end
 
@@ -129,12 +133,15 @@
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 
 {
-
     [picker dismissViewControllerAnimated:YES completion:nil];
 
     UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
-     self.originImageView.image = image;
+     self.originImageView.image = image.normalizedImage;
+//    UIImageOrientation orientation =  image.imageOrientation;
     [self cvMakeImage];
     
 }
+
+
+
 @end

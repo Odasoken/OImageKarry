@@ -13,7 +13,6 @@
 		E92EBE012632602200345F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92EBDFF2632602200345F7A /* Main.storyboard */; };
 		E92EBE062632602400345F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92EBE042632602400345F7A /* LaunchScreen.storyboard */; };
 		E92EBE092632602400345F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EBE082632602400345F7A /* main.m */; };
-		E92EBE102632610900345F7A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92EBE0F2632610900345F7A /* opencv2.framework */; };
 		E92EBE5F2632612100345F7A /* XLProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EBE142632612100345F7A /* XLProgressView.m */; };
 		E92EBE602632612100345F7A /* UIView+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EBE162632612100345F7A /* UIView+XLExtension.m */; };
 		E92EBE612632612100345F7A /* UIImage+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EBE192632612100345F7A /* UIImage+XLExtension.m */; };
@@ -54,6 +53,9 @@
 		E92EBE8A263283EC00345F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92EBE89263283EC00345F7A /* Assets.xcassets */; };
 		E92EBE8D2632B4DC00345F7A /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E92EBE8B2632B4DC00345F7A /* 003.jpg */; };
 		E92EBE8E2632B4DC00345F7A /* 1984.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E92EBE8C2632B4DC00345F7A /* 1984.jpg */; };
+		E92F91CC2636603800E36722 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92F91CB2636603800E36722 /* opencv2.framework */; };
+		E92F91CF263802C500E36722 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92F91CE263802C500E36722 /* Photos.framework */; };
+		E92F91D226380BA200E36722 /* UIImage+Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = E92F91D126380BA200E36722 /* UIImage+Hello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,7 +70,6 @@
 		E92EBE052632602400345F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E92EBE072632602400345F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E92EBE082632602400345F7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E92EBE0F2632610900345F7A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		E92EBE122632612100345F7A /* UIImage+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XLExtension.h"; sourceTree = "<group>"; };
 		E92EBE132632612100345F7A /* XLPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoBrowserConfig.h; sourceTree = "<group>"; };
 		E92EBE142632612100345F7A /* XLProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLProgressView.m; sourceTree = "<group>"; };
@@ -145,6 +146,10 @@
 		E92EBE89263283EC00345F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92EBE8B2632B4DC00345F7A /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
 		E92EBE8C2632B4DC00345F7A /* 1984.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1984.jpg; sourceTree = "<group>"; };
+		E92F91CB2636603800E36722 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		E92F91CE263802C500E36722 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		E92F91D026380BA200E36722 /* UIImage+Hello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Hello.h"; sourceTree = "<group>"; };
+		E92F91D126380BA200E36722 /* UIImage+Hello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Hello.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +157,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E92EBE102632610900345F7A /* opencv2.framework in Frameworks */,
+				E92F91CC2636603800E36722 /* opencv2.framework in Frameworks */,
+				E92F91CF263802C500E36722 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +170,7 @@
 			children = (
 				E92EBDF52632602200345F7A /* OImageKarry */,
 				E92EBDF42632602200345F7A /* Products */,
+				E92F91CD263802C500E36722 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,13 +193,15 @@
 				E92EBDFD2632602200345F7A /* ViewController.mm */,
 				E92EBE8326326D4000345F7A /* UIImageView+Hello.h */,
 				E92EBE8226326D4000345F7A /* UIImageView+Hello.m */,
+				E92F91D026380BA200E36722 /* UIImage+Hello.h */,
+				E92F91D126380BA200E36722 /* UIImage+Hello.m */,
 				E92EBDFF2632602200345F7A /* Main.storyboard */,
 				E92EBE8B2632B4DC00345F7A /* 003.jpg */,
 				E92EBE8C2632B4DC00345F7A /* 1984.jpg */,
 				E92EBE852632707100345F7A /* test.jpg */,
+				E92F91CB2636603800E36722 /* opencv2.framework */,
 				E92EBE87263279D100345F7A /* README.md */,
 				E92EBE112632612100345F7A /* XLPhotoBrowser+CoderXL */,
-				E92EBE0F2632610900345F7A /* opencv2.framework */,
 				E92EBE042632602400345F7A /* LaunchScreen.storyboard */,
 				E92EBE89263283EC00345F7A /* Assets.xcassets */,
 				E92EBE072632602400345F7A /* Info.plist */,
@@ -317,6 +326,14 @@
 			path = PageControl;
 			sourceTree = "<group>";
 		};
+		E92F91CD263802C500E36722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E92F91CE263802C500E36722 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92F91D226380BA200E36722 /* UIImage+Hello.m in Sources */,
 				E92EBDFE2632602200345F7A /* ViewController.mm in Sources */,
 				E92EBE652632612100345F7A /* SDWebImageManager.m in Sources */,
 				E92EBE632632612100345F7A /* UIImage+WebP.m in Sources */,

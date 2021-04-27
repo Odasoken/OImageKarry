@@ -49,7 +49,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="1984.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OYD-Bp-lsb">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="003.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OYD-Bp-lsb">
                                                 <rect key="frame" x="5" y="8" width="128" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="7KQ-xL-hes"/>
@@ -194,6 +194,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1984.jpg" width="1274" height="944"/>
+        <image name="003.jpg" width="1008" height="1012"/>
     </resources>
 </document>

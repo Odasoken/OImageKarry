@@ -20,6 +20,8 @@
 	<string></string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>App needs your consense to save the image to photo library</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>App needs your consense to save the image to photo library</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
